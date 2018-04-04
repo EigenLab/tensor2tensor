@@ -1,0 +1,1 @@
+t2t-decoder --t2t_usr_dir=script --problem=headline_gen --data_dir=./data --model=transformer --hparams_set=transformer_prepend --hparams="batch_size=64" --output_dir=./output --decode_hparams="beam_size=4,alpha=0.6" --decode_from_file=data/test.source --decode_to_file=decoder/test.target.predict

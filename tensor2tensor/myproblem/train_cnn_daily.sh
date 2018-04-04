@@ -1,0 +1,1 @@
+t2t-trainer --generate_data --data_dir=~/t2t_data --output_dir=~/t2t_train/cnn_daily --problems=summarize_cnn_dailymail32k --model=transformer --hparams_set=transformer_prepend --train_steps=1000 --eval_steps=100

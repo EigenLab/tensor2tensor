@@ -1,0 +1,1 @@
+t2t-trainer --t2t_usr_dir=script/ --data_dir=/data/share/zyh/headline_gen/tensor2tensor/data --output_dir=/data/share/zyh/headline_gen/tensor2tensor/output --problems=headline_gen --model=transformer --hparams_set=transformer_prepend --hparams="batch_size=1024" --train_steps=1000 --eval_steps=10 --worker_gpu=2
